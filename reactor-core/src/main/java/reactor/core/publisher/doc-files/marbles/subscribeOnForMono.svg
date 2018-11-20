@@ -1598,19 +1598,18 @@
     </marker>
   </defs>
   <path
+     style="fill:none;fill-opacity:1;stroke:#ff5a01;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#FilledArrow_Marker-8W-34)"
+     inkscape:connector-curvature="0"
+     d="M 88.019988,371.4999 H 362.46487"
+     id="path65438" />
+  <path
      id="line39-1"
      d="M 88.019988,45.499901 H 362.46487"
      inkscape:connector-curvature="0"
      style="fill:none;fill-opacity:1;stroke:#ff5a01;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#FilledArrow_Marker-8W-34)" />
   <circle
      r="23"
-     style="fill:#6cb33e;fill-opacity:1;stroke:none;stroke-dasharray:none;stroke-opacity:1"
-     cx="187.48634"
-     cy="49"
-     id="ellipse42-2" />
-  <circle
-     r="23"
-     style="fill:none;fill-opacity:1;stroke:#34302c;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     style="fill:#6cb33e;fill-opacity:1;stroke:#34302c;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
      cx="187.48634"
      cy="49"
      id="ellipse44-9" />
@@ -1753,11 +1752,6 @@
      id="path65436"
      inkscape:connector-curvature="0"
      style="fill:none;fill-opacity:1;stroke:#34302c;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
-  <path
-     style="fill:none;fill-opacity:1;stroke:#ff5a01;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#FilledArrow_Marker-8W-34)"
-     inkscape:connector-curvature="0"
-     d="M 88.019988,371.4999 H 362.46487"
-     id="path65438" />
   <circle
      r="23"
      style="fill:#6cb33e;fill-opacity:1;stroke:#34302c;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"

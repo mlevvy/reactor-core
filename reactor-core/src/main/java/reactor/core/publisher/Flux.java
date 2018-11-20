@@ -7171,6 +7171,7 @@ public abstract class Flux<T> implements Publisher<T> {
 	 * @return a {@link Flux} sampled to items not followed by any other item within a window
 	 * defined by a companion {@link Publisher}
 	 */
+	//FIXME re-evaluate the wording on maxConcurrency, seems more related to request/buffering. If so redo the marble
 	public final <U> Flux<T> sampleTimeout(Function<? super T, ? extends Publisher<U>>
 			throttlerFactory, int maxConcurrency) {
 		return onAssembly(new FluxSampleTimeout<>(this, throttlerFactory,
@@ -7927,7 +7928,7 @@ public abstract class Flux<T> implements Publisher<T> {
 	 * Publisher are emitted in the resulting {@link Flux}.
 	 *
 	 * <p>
-	 * <img class="marble" src="doc-files/marbles/switchMapWithPrefetch.svg" alt="">
+	 * <img class="marble" src="doc-files/marbles/switchMap.svg" alt="">
 	 *
 	 * @param fn the {@link Function} to generate a {@link Publisher} for each source value
 	 * @param prefetch the produced demand for inner sources
